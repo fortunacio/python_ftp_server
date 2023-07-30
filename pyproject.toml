@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-ftp-server"
+version = "0.1.0"
+description = ""
+authors = ["Federico Fortunacio <federicofortunacio@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_ftp_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pyftpdlib = "^1.5.7"
+pyopenssl = "^23.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
